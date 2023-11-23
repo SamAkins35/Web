@@ -8,11 +8,7 @@
 .container {
   width: 100%;
   min-height: 100vh;
-  background-image: linear-gradient(
-      rgba(9, 0, 77, 0.65),
-      (rgba(9, 0, 77, 0.65))
-    ),
-    url(https://imgur.com/nP5CKKh.jpg);
+  background-color: blue;
   background-size: cover;
   background-position: center;
   padding: 10px 8%;
@@ -34,7 +30,7 @@ nav ul {
   list-style: none;
   width: 100%;
   text-align: right;
-  padding-right: 30px;
+  padding-right: 60px;
 }
 
 nav ul li {
@@ -43,7 +39,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: black;
+  color: #ffff;
   text-decoration: none;
 }
 
@@ -54,9 +50,9 @@ nav ul li a {
   border: 0cap;
   outline: 0cap;
   border-radius: 1px;
-  background-color: aquamarine;
-  color: black;
-  font-weight: 100;
+  background-color: #f5168d;
+  color: #ffff;
+  font-weight: 500;
   cursor: pointer;
 }
 
@@ -66,7 +62,33 @@ nav ul li a {
 }
 
 .content {
-  margin-top: 16%;
-  color: blue;
-  max-width: 630;
+  margin-top: 14%;
+  color: #fff;
+  max-width: 620;
+}
+
+.content h1 {
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 85px;
+  margin-bottom: 25px;
+}
+.content form {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+}
+.content form input {
+  border: 0;
+  outline: 0;
+  width: 100%;
+  font-size: 15px;
+  padding-left: 10px;
+}
+.content form .btn {
+  font-size: 15px;
+  padding: 10px 30px;
 }
