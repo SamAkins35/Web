@@ -6,12 +6,12 @@
 }
 
 .container {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
+  padding: 10px 8%;
+  background-image: url(IMG_9427.PNG);
   background-size: cover;
   background-position: center;
-  padding: 10px 8%;
-  background-image: url("https://imgur.com/nP5CKKh.jpg");
 }
 
 nav {
